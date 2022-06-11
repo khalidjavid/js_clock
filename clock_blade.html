@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="clock_css.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <article class="analog-clock">
+            <div class="hours-container">
+                <div class="hours">
+
+                </div>
+            </div>
+            <div class="mints-container">
+                <div class="mints">
+
+                </div>
+            </div>
+            <div class="seconds-container">
+                <div class="seconds">
+
+                </div>
+            </div>
+
+        </article>
+    </section>
+    <section>
+        <article class="digital-clock" onload="currentDigitalTime()">
+            <div class="digital-hours-container">
+                <div id="digital-hours"></div>
+            </div>
+            <div class="digital-mints-container">
+                <div id="digital-mints"></div>
+            </div>
+            <div class="digital-period-container">
+                <div id="period"></div>
+            </div>
+
+        </article>
+    </section>
+    <script src="clock_script.js"></script>
+</body>
+</html>
